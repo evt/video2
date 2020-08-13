@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/evt/video1/config"
-	"github.com/evt/video1/db"
-	"github.com/evt/video1/server"
+	"github.com/evt/video2/config"
+	"github.com/evt/video2/db"
+	"github.com/evt/video2/server"
 )
 
 func main() {
