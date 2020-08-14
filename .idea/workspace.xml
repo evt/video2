@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28260b84-2323-4401-995f-e6a81df0f89b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/migrations/1_initial.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrations/run.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud.functions.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/deploy.all.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmd/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/rooms.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/rooms.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
@@ -59,10 +59,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/db" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cmd" />
       <recent name="$PROJECT_DIR$/db" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$/model" />
@@ -88,10 +90,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="532" y="256" width="615" height="490" key="find.popup" timestamp="1597379849355">
+    <state x="532" y="256" width="615" height="548" key="find.popup" timestamp="1597381454677">
       <screen x="0" y="23" width="1680" height="961" />
     </state>
-    <state x="532" y="256" width="615" height="490" key="find.popup/0.23.1680.961@0.23.1680.961" timestamp="1597379849355" />
+    <state x="532" y="256" width="615" height="548" key="find.popup/0.23.1680.961@0.23.1680.961" timestamp="1597381454677" />
     <state x="532" y="257" width="615" height="490" key="find.popup/0.23.1680.964@0.23.1680.964" timestamp="1597296797692" />
   </component>
 </project>
