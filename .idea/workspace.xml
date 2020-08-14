@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28260b84-2323-4401-995f-e6a81df0f89b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud.functions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmd/deploy.all.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmd/env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/env.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/rooms.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/rooms.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrations/1_initial.go" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrations/1_initial.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

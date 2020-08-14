@@ -11,9 +11,9 @@ func init() {
 		fmt.Println("creating table rooms...")
 		_, err := db.Exec(`CREATE TABLE rooms(
 			room_number integer not null primary key,
-      firstname varchar(64) not null,
-      lastname varchar(64) not null,
-      call_time char(5) not null,
+			firstname varchar(64) not null,
+			lastname varchar(64) not null,
+			call_time char(5) not null,
 			retry_count integer not null default 0,
 			created timestamp default current_timestamp
     )`)
