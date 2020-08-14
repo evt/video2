@@ -3,6 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
+	"github.com/evt/video2/db/migrations"
 	"log"
 	"net/http"
 	"time"
@@ -27,6 +28,11 @@ func run() error {
 	// connect to Postgres
 	pgDB, err := db.Dial(cfg)
 	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Run Postgres migrations
+	if err := migrations.Run(pgDB); err != nil {
 		log.Fatal(err)
 	}
 

@@ -3,6 +3,8 @@ module github.com/evt/video2
 go 1.14
 
 require (
+	github.com/evt/wakeup v0.0.0-20200603111226-8b098a6a4fd5
+	github.com/go-pg/migrations/v7 v7.1.11
 	github.com/go-pg/pg/v9 v9.1.7
 	github.com/gorilla/mux v1.7.4
 	github.com/jinzhu/configor v1.2.0
